@@ -4,78 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil von Lea Weber</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header, main, footer {
-      margin: 20px;
-    }
-
-    header h1 {
-      font-size: 30px;
-      margin: 0;
-    }
-
-    header h2 {
-      font-size: 20px;
-      margin: 0;
-    }
-
-    section {
-      margin-bottom: 30px;
-    }
-
-    section h3 {
-      font-size: 20px;
-      margin: 0 0 10px;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 14px;
-    }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Lea Weber</h1>
-    <h2>Business Administration Student</h2>
+<body class="bg-gray-100">
+  <header class="text-center p-8">
+    <h1 class="text-3xl font-bold">Lea Weber</h1>
+    <h2 class="text-xl text-gray-700">Business Administration Student</h2>
   </header>
 
-  <main>
+  <main class="max-w-lg mx-auto">
     <section>
-      <h3>Über mich</h3>
-      <p>Hallo! Mein Name ist Lea Weber und ich wurde am 15.03.1998 geboren. Ich studiere Business Administration und bin an einer breiten Palette von Geschäftsprozessen und -funktionen interessiert. Ich bin motiviert, innovative Lösungen zu entwickeln und habe eine Leidenschaft für unternehmerische Herausforderungen.</p>
+      <h3 class="text-2xl font-bold mb-4">Über mich</h3>
+      <p class="text-gray-700">Hallo! Mein Name ist Lea Weber und ich wurde am 15.03.1998 geboren. Ich studiere Business Administration und bin an einer breiten Palette von Geschäftsprozessen und -funktionen interessiert. Ich bin motiviert, innovative Lösungen zu entwickeln und habe eine Leidenschaft für unternehmerische Herausforderungen.</p>
     </section>
 
     <section>
-      <h3>Ausbildung</h3>
-      <ul>
-        <li>Studium Business Administration, Fachhochschule Hannover - Fachbereich Wirtschaft , 2022 - heute</li>
+      <h3 class="text-2xl font-bold mb-4">Ausbildung</h3>
+      <ul class="list-disc ml-8">
+        <li>Studium Business Administration, Fachhochschule Hannover - Fachbereich Wirtschaft, 2022 - heute</li>
       </ul>
     </section>
 
     <section>
-      <h3>Praktische Erfahrungen</h3>
-      <ul>
+      <h3 class="text-2xl font-bold mb-4">Praktische Erfahrungen</h3>
+      <ul class="list-disc ml-8">
         <li>Praktikum im Bereich Marketing bei Uniqlo, Berlin, 2019</li>
         <li>Praktikum im Bereich Personalwesen bei HelloFresh, Berlin, 2018</li>
       </ul>
     </section>
 
     <section>
-      <h3>Fähigkeiten</h3>
-      <ul>
+      <h3 class="text-2xl font-bold mb-4">Fähigkeiten</h3>
+      <ul class="list-disc ml-8">
         <li>Projektmanagement</li>
         <li>Marktforschung</li>
         <li>Finanzanalyse</li>
@@ -85,14 +45,14 @@
     </section>
 
     <section>
-      <h3>Kontakt</h3>
-      <ul>
+      <h3 class="text-2xl font-bold mb-4">Kontakt</h3>
+      <ul class="list-disc ml-8">
         <li>Email: Lea.Weber98@outlook.com</li>
       </ul>
     </section>
   </main>
 
-  <footer>
+  <footer class="text-center text-gray-600 text-sm py-4">
     &copy; 2023 Lea Weber
   </footer>
 </body>
